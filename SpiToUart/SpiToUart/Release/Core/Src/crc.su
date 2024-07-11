@@ -1,0 +1,2 @@
+../Core/Src/crc.c:13:9:reverseByte	0	static
+../Core/Src/crc.c:20:10:crc16_arc	16	static

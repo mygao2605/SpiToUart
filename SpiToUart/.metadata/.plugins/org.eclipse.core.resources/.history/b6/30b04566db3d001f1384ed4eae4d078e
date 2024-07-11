@@ -1,0 +1,57 @@
+/*
+ * Data.c
+ *
+ *  Created on: Jul 9, 2024
+ *      Author: tuna
+ */
+#include "Data.h"
+
+S_FRAME_RX485		sFrameRx;
+
+void RS485Process(void)
+{
+
+	// ucChar =  USART_0_read_by#include "Data.h"te();
+
+	while ((uint8_t)((USART3->ISR & 0x20)>>5) == 1)
+	{
+		uint8_t ucChar;
+		ucChar = (uint8_t)(USART3->RDR);
+
+		// Reading-----------------------------------------------
+		if (sFrameRx.modbus_state == READING)
+		{
+			sFrameRx.u8BuffRead[sFrameRx.data_pointer++] = ucChar;
+			if (sFrameRx.data_pointer == sFrameRx.byte_count)
+			{
+				sFrameRx.modbus_state = READING_END;
+				//ModbusProcess();
+			}
+		}
+
+		// Check byte_count--------------------------------------
+		if ((sFrameRx.u8BuffRead[3] == 0) && (sFrameRx.u8BuffRead[4] > 0))
+		{
+			sFrameRx.byte_count = 10 + sFrameRx.u8BuffRead[4];
+		}
+
+		// Start--------------------------------------------------
+		if (sFrameRx.modbus_state == START)
+		{
+			if (ucChar == 0x55)
+			{
+				sFrameRx.data_pointer = 0;
+				sFrameRx.u8BuffRead[sFrameRx.data_pointer++] = ucChar;
+				sFrameRx.modbus_state = READING;
+
+				}
+				else
+				{
+					sFrameRx.modbus_state = START;
+					sFrameRx.data_pointer = 0;
+				}
+			}
+
+		}
+
+}

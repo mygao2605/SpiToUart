@@ -1,0 +1,1305 @@
+11:00:36 **** Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32u585aiixq.d" -MT"Core/Startup/startup_stm32u585aiixq.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32u585aiixq.o" "../Core/Startup/startup_stm32u585aiixq.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32u5xx_hal_msp.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32u5xx_hal_msp.d" -MT"Core/Src/stm32u5xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32u5xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32u5xx_it.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32u5xx_it.d" -MT"Core/Src/stm32u5xx_it.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32u5xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32u5xx.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32u5xx.d" -MT"Core/Src/system_stm32u5xx.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32u5xx.o"
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  25208	      9	   1860	  27077	   69c5	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+11:02:43 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25208	      9	   1860	  27077	   69c5	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+11:02:46 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25208	      9	   1860	  27077	   69c5	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+11:06:58 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  25208	      9	   1860	  27077	   69c5	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+11:20:39 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25208	      9	   1860	  27077	   69c5	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+11:37:39 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:277:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  277 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c: In function 'UART_Transmit':
+../Core/Src/main.c:279:22: error: 'huart2' undeclared (first use in this function); did you mean 'huart3'?
+  279 |   HAL_UART_Transmit(&huart2, pData, Size, HAL_MAX_DELAY);
+      |                      ^~~~~~
+      |                      huart3
+../Core/Src/main.c:279:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:282:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  282 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'UART_Receive':
+../Core/Src/main.c:284:21: error: 'huart2' undeclared (first use in this function); did you mean 'huart3'?
+  284 |   HAL_UART_Receive(&huart2, pData, Size, HAL_MAX_DELAY);
+      |                     ^~~~~~
+      |                     huart3
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+11:38:24 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:277:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  277 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:282:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  282 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  26136	      9	   1860	  28005	   6d65	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+11:45:34 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26136	      9	   1860	  28005	   6d65	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+11:51:55 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n")
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n")
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:107:40: error: expected ';' before 'UART_Receive'
+  107 |   printf("STM32 hello from printf\r\n")
+      |                                        ^
+      |                                        ;
+  108 |     // Receive data
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ~~~~~~~~~~~~                          
+../Core/Src/main.c:105:11: warning: unused variable 'rxData' [-Wunused-variable]
+  105 |   uint8_t rxData[20];
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:279:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  279 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+11:52:08 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:279:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  279 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:284:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  284 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28804	    104	   2200	  31108	   7984	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:26:36 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28804	    104	   2200	  31108	   7984	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+14:38:07 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:116:11: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  116 |           UART_Transmit(txData, sizeof(txData));
+      |           ^~~~~~~~~~~~~
+      |           HAL_UART_Transmit
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:279:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  279 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:116:11: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  116 |           UART_Transmit(txData, sizeof(txData));
+      |           ^~~~~~~~~~~~~
+../Core/Src/main.c:284:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  284 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28756	    104	   2200	  31060	   7954	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:39:43 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28756	    104	   2200	  31060	   7954	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+14:40:03 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28756	    104	   2200	  31060	   7954	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+14:43:45 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28756	    104	   2200	  31060	   7954	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+14:46:17 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:279:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  279 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:284:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  284 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28756	    104	   2200	  31060	   7954	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:46:32 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:279:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  279 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:284:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  284 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28764	    104	   2200	  31068	   795c	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:47:11 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:110:10: warning: pointer targets in passing argument 1 of 'printf' differ in signedness [-Wpointer-sign]
+  110 |   printf(rxData);
+      |          ^~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+../Core/Src/main.c:110:10: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:280:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  280 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:285:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  285 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  30335	    104	   2200	  32639	   7f7f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:48:03 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:105:11: warning: unused variable 'rxData' [-Wunused-variable]
+  105 |   uint8_t rxData[20];
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:280:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  280 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28284	    104	   2200	  30588	   777c	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:48:34 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:105:11: warning: unused variable 'rxData' [-Wunused-variable]
+  105 |   uint8_t rxData[20];
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:281:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  281 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28284	    104	   2200	  30588	   777c	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+14:48:55 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28284	    104	   2200	  30588	   777c	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+15:10:21 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:111:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  111 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:111:3: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  111 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:111:3: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:288:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  288 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:293:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  293 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:109:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  109 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+15:21:55 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+15:22:49 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+15:38:04 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:04:45 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  107 |   printf("STM32 hello from printf\r\n");
+      |   ^~~~~~
+../Core/Src/main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:108:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  108 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:110:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  110 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:110:3: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  110 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:110:3: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:287:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  287 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:292:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  292 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:108:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  108 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+16:04:49 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:09:04 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:09:39 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:108:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  108 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  109 |   printf("Received data: %s\r\n", rxData);
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:109:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  109 |   printf("Received data: %s\r\n", rxData);
+      |   ^~~~~~
+../Core/Src/main.c:109:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:110:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  110 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:110:3: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  110 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:110:3: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:288:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  288 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:293:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  293 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:108:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  108 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+16:10:01 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:10:04 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:11:54 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:12:38 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30363	    104	   2200	  32667	   7f9b	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:14:35 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:118:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  118 |           printf("STM32 hello from printf\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:118:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  118 |           printf("STM32 hello from printf\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:118:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  27876	    104	   2200	  30180	   75e4	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+16:14:40 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27876	    104	   2200	  30180	   75e4	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:15:07 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27876	    104	   2200	  30180	   75e4	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:15:14 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27876	    104	   2200	  30180	   75e4	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:19:00 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:118:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  118 |           printf("STM32 hello from printf\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:118:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  118 |           printf("STM32 hello from printf\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:118:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  27956	    104	   2200	  30260	   7634	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+16:24:31 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27956	    104	   2200	  30260	   7634	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:24:38 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27956	    104	   2200	  30260	   7634	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:24:43 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27956	    104	   2200	  30260	   7634	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:24:49 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27956	    104	   2200	  30260	   7634	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:25:18 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27956	    104	   2200	  30260	   7634	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:25:50 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  107 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:108:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  108 |   printf("Received data: %s\r\n", rxData);
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:108:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  108 |   printf("Received data: %s\r\n", rxData);
+      |   ^~~~~~
+../Core/Src/main.c:108:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  109 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:109:3: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  109 |   memset(rxData, 0, sizeof(rxData));
+      |   ^~~~~~
+../Core/Src/main.c:109:3: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:289:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  289 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:106:3: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  106 |   UART_Transmit(txData, sizeof(txData));
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:294:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  294 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:107:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  107 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  30443	    104	   2200	  32747	   7feb	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+16:28:09 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30443	    104	   2200	  32747	   7feb	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:29:08 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  107 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+      |   HAL_UART_Receive
+../Core/Src/main.c:108:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  108 |   printf("Received data: %s\r\n", rxData);
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:108:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  108 |   printf("Received data: %s\r\n", rxData);
+      |   ^~~~~~
+../Core/Src/main.c:108:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:104:11: warning: unused variable 'txData' [-Wunused-variable]
+  104 |   uint8_t txData[] = "Hello UART!";
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:294:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  294 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:107:3: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  107 |   UART_Receive(rxData, sizeof(rxData));
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  30063	    104	   2200	  32367	   7e6f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+16:30:05 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30063	    104	   2200	  32367	   7e6f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:30:18 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30063	    104	   2200	  32367	   7e6f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:30:51 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30063	    104	   2200	  32367	   7e6f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:33:19 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30063	    104	   2200	  32367	   7e6f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+16:34:55 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-size  SpiToUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30063	    104	   2200	  32367	   7e6f	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+07:56:00 **** Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:70:15: error: expected declaration specifiers before 'Timeout'
+   70 | int main(void)Timeout)hspi, pData, Size, Timeout
+      |               ^~~~~~~
+../Core/Src/main.c:133:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  133 | {
+      | ^
+../Core/Src/main.c:188:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  188 | {
+      | ^
+../Core/Src/main.c:244:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  244 | {
+      | ^
+../Core/Src/main.c:286:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  286 | {
+      | ^
+../Core/Src/main.c:291:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  291 | {
+      | ^
+../Core/Src/main.c:302:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  302 | {
+      | ^
+../Core/Src/main.c:335:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  335 | {
+      | ^
+../Core/Src/main.c:363: error: expected '{' at end of input
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:54:13: warning: 'MX_GPIO_Init' declared 'static' but never defined [-Wunused-function]
+   54 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:55:13: warning: 'MX_SPI1_Init' declared 'static' but never defined [-Wunused-function]
+   55 | static void MX_SPI1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:56:13: warning: 'MX_USART3_UART_Init' declared 'static' but never defined [-Wunused-function]
+   56 | static void MX_USART3_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+07:56:24 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:39: error: 'spi_rx_buffer' undeclared (first use in this function)
+  110 |           if (HAL_SPI_Receive(&hspi1, spi_rx_buffer, sizeof(spi_rx_buffer), HAL_MAX_DELAY) == HAL_OK)
+      |                                       ^~~~~~~~~~~~~
+../Core/Src/main.c:110:39: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:116:14: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  116 |           if(UART_Receive(rxData, sizeof(rxData))==HAL_OK)
+      |              ^~~~~~~~~~~~
+      |              HAL_UART_Receive
+../Core/Src/main.c:120:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  120 |             printf("Received data: %s\r\n", rxData);
+      |             ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:120:13: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  120 |             printf("Received data: %s\r\n", rxData);
+      |             ^~~~~~
+../Core/Src/main.c:120:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:121:13: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  121 |             memset(rxData, 0, sizeof(rxData));
+      |             ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:121:13: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  121 |             memset(rxData, 0, sizeof(rxData));
+      |             ^~~~~~
+../Core/Src/main.c:121:13: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:104:11: warning: unused variable 'txData' [-Wunused-variable]
+  104 |   uint8_t txData[] = "Hello UART!";
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:290:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  290 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:116:14: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  116 |           if(UART_Receive(rxData, sizeof(rxData))==HAL_OK)
+      |              ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+07:57:18 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:14: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  117 |           if(UART_Receive(rxData, sizeof(rxData))==HAL_OK)
+      |              ^~~~~~~~~~~~
+      |              HAL_UART_Receive
+../Core/Src/main.c:121:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  121 |             printf("Received data: %s\r\n", rxData);
+      |             ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:121:13: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  121 |             printf("Received data: %s\r\n", rxData);
+      |             ^~~~~~
+../Core/Src/main.c:121:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:122:13: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  122 |             memset(rxData, 0, sizeof(rxData));
+      |             ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:122:13: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  122 |             memset(rxData, 0, sizeof(rxData));
+      |             ^~~~~~
+../Core/Src/main.c:122:13: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:104:11: warning: unused variable 'txData' [-Wunused-variable]
+  104 |   uint8_t txData[] = "Hello UART!";
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:291:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  291 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:117:14: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  117 |           if(UART_Receive(rxData, sizeof(rxData))==HAL_OK)
+      |              ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  32459	    104	   2200	  34763	   87cb	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+08:08:37 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:14: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  117 |           if(UART_Receive(rxData, sizeof(rxData)) == HAL_OK)
+      |              ^~~~~~~~~~~~
+      |              HAL_UART_Receive
+../Core/Src/main.c:121:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  121 |             printf("Received data: %s\r\n", rxData);
+      |             ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:121:13: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  121 |             printf("Received data: %s\r\n", rxData);
+      |             ^~~~~~
+../Core/Src/main.c:121:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:122:13: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  122 |             memset(rxData, 0, sizeof(rxData));
+      |             ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memset'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:122:13: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  122 |             memset(rxData, 0, sizeof(rxData));
+      |             ^~~~~~
+../Core/Src/main.c:122:13: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/main.c:104:11: warning: unused variable 'txData' [-Wunused-variable]
+  104 |   uint8_t txData[] = "Hello UART!";
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:291:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  291 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:117:14: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  117 |           if(UART_Receive(rxData, sizeof(rxData)) == HAL_OK)
+      |              ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  32459	    104	   2200	  34763	   87cb	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+08:20:49 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:114:17: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  114 |                 UART_Transmit(&huart3, HAL_MAX_DELAY);
+      |                 ^~~~~~~~~~~~~
+      |                 HAL_UART_Transmit
+../Core/Src/main.c:117:14: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  117 |           if(UART_Receive(rxData, sizeof(rxData)) == HAL_OK)
+      |              ^~~~~~~~~~~~
+      |              HAL_UART_Receive
+../Core/Src/main.c:104:11: warning: unused variable 'txData' [-Wunused-variable]
+  104 |   uint8_t txData[] = "Hello UART!";
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:286:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  286 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:114:17: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  114 |                 UART_Transmit(&huart3, HAL_MAX_DELAY);
+      |                 ^~~~~~~~~~~~~
+../Core/Src/main.c:291:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  291 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:117:14: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  117 |           if(UART_Receive(rxData, sizeof(rxData)) == HAL_OK)
+      |              ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28440	      9	   1860	  30309	   7665	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
+08:23:09 **** Incremental Build of configuration Debug for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:114:17: warning: implicit declaration of function 'UART_Transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  114 |                 UART_Transmit(spi_rx_buffer, HAL_MAX_DELAY);
+      |                 ^~~~~~~~~~~~~
+      |                 HAL_UART_Transmit
+../Core/Src/main.c:117:14: warning: implicit declaration of function 'UART_Receive'; did you mean 'HAL_UART_Receive'? [-Wimplicit-function-declaration]
+  117 |           if(UART_Receive(rxData, sizeof(rxData)) == HAL_OK)
+      |              ^~~~~~~~~~~~
+      |              HAL_UART_Receive
+../Core/Src/main.c:104:11: warning: unused variable 'txData' [-Wunused-variable]
+  104 |   uint8_t txData[] = "Hello UART!";
+      |           ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:286:6: warning: conflicting types for 'UART_Transmit'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  286 | void UART_Transmit(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:114:17: note: previous implicit declaration of 'UART_Transmit' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  114 |                 UART_Transmit(spi_rx_buffer, HAL_MAX_DELAY);
+      |                 ^~~~~~~~~~~~~
+../Core/Src/main.c:291:6: warning: conflicting types for 'UART_Receive'; have 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  291 | void UART_Receive(uint8_t *pData, uint16_t Size)
+      |      ^~~~~~~~~~~~
+../Core/Src/main.c:117:14: note: previous implicit declaration of 'UART_Receive' with type 'void(uint8_t *, uint16_t)' {aka 'void(unsigned char *, short unsigned int)'}
+  117 |           if(UART_Receive(rxData, sizeof(rxData)) == HAL_OK)
+      |              ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  28440	      9	   1860	  30309	   7665	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 

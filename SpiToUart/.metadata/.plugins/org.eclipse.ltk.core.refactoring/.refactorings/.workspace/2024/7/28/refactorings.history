@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;UartUnknownLength&apos;" deleteContents="false" description="Delete resource &apos;UartUnknownLength&apos;" element1="/UartUnknownLength" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1720663911660"/>&#x0A;<refactoring comment="Delete resource &apos;SpiToUart/Core/Src/crc.c&apos;" deleteContents="false" description="Delete resource &apos;SpiToUart/Core/Src/crc.c&apos;" element1="/SpiToUart/Core/Src/crc.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1720672038220"/>
+</session>

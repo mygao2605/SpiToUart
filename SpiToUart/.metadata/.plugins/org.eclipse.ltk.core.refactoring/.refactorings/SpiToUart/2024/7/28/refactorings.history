@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpiToUart/Core/Src/crc&apos; to &apos;crc.c&apos;" description="Rename resource &apos;crc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/crc" name="crc.c" stamp="1720671990816" updateReferences="true"/>
+</session>

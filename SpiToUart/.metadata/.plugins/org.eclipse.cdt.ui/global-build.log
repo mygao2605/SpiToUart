@@ -1,0 +1,26 @@
+17:03:38 **** Incremental Build of configuration Release for project SpiToUart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/Data.c" -mcpu=cortex-m33 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Data.d" -MT"Core/Src/Data.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Data.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'RS485Process':
+../Core/Src/main.c:55:33: warning: implicit declaration of function 'ModbusProcess' [-Wimplicit-function-declaration]
+   55 |                                 ModbusProcess();
+      |                                 ^~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:86:6: warning: conflicting types for 'ModbusProcess'; have 'void(void)'
+   86 | void ModbusProcess(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:55:33: note: previous implicit declaration of 'ModbusProcess' with type 'void(void)'
+   55 |                                 ModbusProcess();
+      |                                 ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpiToUart.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/SpiToUart/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpiToUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpiToUart.elf
+ 
+arm-none-eabi-size  SpiToUart.elf 
+arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
+   text	   data	    bss	    dec	    hex	filename
+  16960	     12	   2916	  19888	   4db0	SpiToUart.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpiToUart.list
+ 
