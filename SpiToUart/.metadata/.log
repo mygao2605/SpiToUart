@@ -7963,3 +7963,18 @@ java.io.FileNotFoundException: /home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUar
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-11 16:43:37.033
 !MESSAGE Existing sessions are:
+!SESSION 2024-07-12 13:39:03.792 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-12 13:39:07.600
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-12 13:39:07.601
+!MESSAGE Log4j2 initialized with config file /home/tuna/STM32CubeIDE/workspace_1.15.1/SpiToUart/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-12 13:39:14.753
+!MESSAGE Started RMI Server, listening on port 41337

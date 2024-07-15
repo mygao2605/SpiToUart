@@ -86,27 +86,72 @@ void RS485Process(void)
 void ModbusProcess(void)
 {
 
-	sFrameRx.modbus_state = START;
-	HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, RESET);
-	for (uint8_t i = 0 ; i< 21 ; i++){
-
+//	sFrameRx.modbus_state = START;
+//	HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, RESET);
+//	for (uint8_t i = 0 ; i< 21 ; i++){
+//
+////		HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
+//		HAL_SPI_TransmitReceive(&hspi1, sFrameRx.u8BuffRead,spi_data,sizeof(spi_data), HAL_MAX_DELAY);
+//		HAL_Delay(10);
+//		HAL_SPI_TransmitReceive(&hspi1,uart_data,spi_data,sizeof(uart_data), HAL_MAX_DELAY);
 //		HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
-		HAL_SPI_TransmitReceive(&hspi1, sFrameRx.u8BuffRead,spi_data,sizeof(spi_data), HAL_MAX_DELAY);
-		HAL_Delay(1);
-		HAL_SPI_TransmitReceive(&hspi1,uart_data,spi_data,sizeof(uart_data), HAL_MAX_DELAY);
-		HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
-		sFrameRx.u8BuffRead[2]++;
-		for(int j =0; j < 6; j++)
-		{
-			Header[j] = sFrameRx.u8BuffRead[j];
+//		sFrameRx.u8BuffRead[2]++;
+//		for(int j =0; j < 6; j++)
+//		{
+//			Header[j] = sFrameRx.u8BuffRead[j];
+//		}
+//		checkCRC16_header=crc16_arc(Header, 6);
+//		sFrameRx.u8BuffRead[6]=(uint8_t)(checkCRC16_header >> 8);
+//		sFrameRx.u8BuffRead[7]=(uint8_t)(checkCRC16_header);
+//		HAL_Delay(100);
+//	}
+//	HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, SET);
+
+
+
+	sFrameRx.modbus_state = START;
+		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, RESET);
+		if(sFrameRx.u8BuffRead[5] == 0x01){
+		for (uint8_t i = 0 ; i< 21 ; i++){
+
+	//		HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
+			HAL_SPI_TransmitReceive(&hspi1, sFrameRx.u8BuffRead,spi_data,sizeof(spi_data), HAL_MAX_DELAY);
+			HAL_Delay(10);
+			HAL_SPI_TransmitReceive(&hspi1,uart_data,spi_data,sizeof(uart_data), HAL_MAX_DELAY);
+			HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
+			sFrameRx.u8BuffRead[2]++;
+			for(int j =0; j < 6; j++)
+			{
+				Header[j] = sFrameRx.u8BuffRead[j];
+			}
+			checkCRC16_header=crc16_arc(Header, 6);
+			sFrameRx.u8BuffRead[6]=(uint8_t)(checkCRC16_header >> 8);
+			sFrameRx.u8BuffRead[7]=(uint8_t)(checkCRC16_header);
+//			HAL_Delay(100);
 		}
-		checkCRC16_header=crc16_arc(Header, 6);
-		sFrameRx.u8BuffRead[6]=(uint8_t)(checkCRC16_header >> 8);
-		sFrameRx.u8BuffRead[7]=(uint8_t)(checkCRC16_header);
-//		HAL_Delay(1000);
-	}
-	HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, SET);
-//	;
+		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, SET);
+		}else if(sFrameRx.u8BuffRead[5] == 0x02){
+			for (uint8_t i = 0 ; i< 16 ; i++){
+
+				//		HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
+						HAL_SPI_TransmitReceive(&hspi1, sFrameRx.u8BuffRead,spi_data,sizeof(spi_data), HAL_MAX_DELAY);
+						HAL_Delay(10);
+						HAL_SPI_TransmitReceive(&hspi1,uart_data,spi_data,sizeof(uart_data), HAL_MAX_DELAY);
+						HAL_UART_Transmit(&huart3, spi_data, sizeof(spi_data), HAL_MAX_DELAY);
+						sFrameRx.u8BuffRead[2]++;
+						for(int j =0; j < 6; j++)
+						{
+							Header[j] = sFrameRx.u8BuffRead[j];
+						}
+						checkCRC16_header=crc16_arc(Header, 6);
+						sFrameRx.u8BuffRead[6]=(uint8_t)(checkCRC16_header >> 8);
+						sFrameRx.u8BuffRead[7]=(uint8_t)(checkCRC16_header);
+//						HAL_Delay(100);
+					}
+
+			HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, SET);
+
+		}
 }
 /* USER CODE END Includes */
 
@@ -300,7 +345,7 @@ static void MX_SPI1_Init(void)
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_256;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;

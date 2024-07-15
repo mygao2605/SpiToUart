@@ -1,7 +1,6 @@
-17:03:38 **** Incremental Build of configuration Release for project SpiToUart ****
+14:40:46 **** Incremental Build of configuration Debug for project SpiToUart ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/Data.c" -mcpu=cortex-m33 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Data.d" -MT"Core/Src/Data.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Data.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U585xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'RS485Process':
 ../Core/Src/main.c:55:33: warning: implicit declaration of function 'ModbusProcess' [-Wimplicit-function-declaration]
    55 |                                 ModbusProcess();
@@ -19,11 +18,11 @@ Finished building target: SpiToUart.elf
 arm-none-eabi-size  SpiToUart.elf 
 arm-none-eabi-objdump -h -S SpiToUart.elf  > "SpiToUart.list"
    text	   data	    bss	    dec	    hex	filename
-  16960	     12	   2916	  19888	   4db0	SpiToUart.elf
+  28188	      9	   2924	  31121	   7991	SpiToUart.elf
 Finished building: default.size.stdout
  
 Finished building: SpiToUart.list
  
 
-17:03:39 Build Finished. 0 errors, 2 warnings. (took 333ms)
+14:40:47 Build Finished. 0 errors, 2 warnings. (took 475ms)
 
